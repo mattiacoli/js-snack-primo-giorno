@@ -4,12 +4,13 @@ Il programma stampa la somma di tutti i numeri inseriti.
 */
 
 let number = [];
+let thisnumber
 
 let sum = 0
 
 for (let i = 0 ; i < 10 ; i++){
   
-  let thisnumber = Number(prompt('Scegli un numero'));
+ thisnumber = Number(prompt('Scegli un numero'));
   console.log(thisnumber);
 
   number.push(thisnumber) 
