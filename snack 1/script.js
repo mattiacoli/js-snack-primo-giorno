@@ -5,11 +5,13 @@ Il software stampa il maggiore.
 
 
 const numbOne = Number(prompt('Inserisci un numero ') )
-const numbTwo = Number(prompt('Inserisci un altro numero') )
+const numbTwo = Number(prompt('Inserisci un altro numero diverso dal primo') )
 
 if (numbOne > numbTwo){
   alert(numbOne);
   
+} else if (numbTwo > numbOne){
+  alert(numbTwo)
 } else {
-  alert(numbTwo);  
+  alert ('Indica due numeri diversi')
 }
