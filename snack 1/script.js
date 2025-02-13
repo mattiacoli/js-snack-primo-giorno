@@ -8,9 +8,8 @@ const numbOne = Number(prompt('Inserisci un numero ') )
 const numbTwo = Number(prompt('Inserisci un altro numero') )
 
 if (numbOne > numbTwo){
-  console.log(numbOne);
+  alert(numbOne);
   
 } else {
-  console.log(numbTwo);
-  
+  alert(numbTwo);  
 }
