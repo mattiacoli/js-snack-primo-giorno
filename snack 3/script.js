@@ -11,19 +11,23 @@ let sum = 0
 for (let i = 0 ; i < 10 ; i++){
   
  thisnumber = Number(prompt('Scegli un numero'));
-  console.log(thisnumber);
 
   number.push(thisnumber) 
-  console.log(number);
 
 }
+ console.log(number);
 
 for (let i = 0; i < number.length; i++) {
+
+  const thisnumber = number [i]
   
-  sum += thisnumber[i];  
+  sum += thisnumber;  
   
 } 
+
 console.log(sum);
+
+
 
 
 
