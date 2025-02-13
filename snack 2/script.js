@@ -11,6 +11,7 @@ if (firstWord.length > secondWord.length){
   
 } else  if (secondWord.length > firstWord.length) {
   console.log(`${secondWord} is longer than ${firstWord}`);
+} else {
+  console.log('the worlds you choice have same lenght');
   
 }
-
